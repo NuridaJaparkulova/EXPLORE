@@ -1,0 +1,174 @@
+@import "./font.css";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+body {
+    font-family: "Montserrat" Arial, Helvetica, sans-serif;
+}
+button {
+    border: none;
+    background: none;
+}
+/* UNIQUE*/
+.container {
+    max-width: 1400px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+/* UNIQUE */
+/* HEADER */
+.header {
+    padding-top: 23px;
+    height: 50px;
+}
+.header__title {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;   
+    margin-left: 40px; 
+}
+/* HEADER */
+/* HERO SECTION */
+.hero {
+    background: url(../image/img1.jpg) no-repeat center/cover;
+    color: #FFFFFF;
+}
+.hero__elements {
+    text-align: center;
+    margin-top: 277px;
+}
+.hero__title {
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 183px;
+    letter-spacing: 0.3em; 
+}
+.hero__desc {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.2em;
+    margin-top: 70px; 
+    padding-bottom: 230px;
+}
+/* HERO SECTION */
+/* TRAVEL SECTION */
+.travel {
+    background-color:black;
+    color: #FFFFFF;
+}
+.travel__grids {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding: 116px 156px 116px 188px;
+}
+.grid__title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;   
+    letter-spacing: 0.1em;
+    margin-bottom: 37px;
+}
+.grid__desc {
+    width: 348px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+}
+.travel__grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+}
+.travel__img1 {
+    width: 100%;
+    height: 186px;
+}
+.travel__img2 {
+    width: 100%;
+    height: 240px;
+    margin-top: -250px;
+}
+.travel__img3 {
+    width: 100%;
+    height: 457px;
+}
+.img img {
+    border-radius: 31px;
+    width: 100%;
+    height: 100%; 
+}
+/* TRAVEL SECTION */
+/* SUB SECTION */
+.sub {
+    background: url(../image/bg\ 2.jpg) no-repeat center/cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sub__elements {
+    padding-top: 92px;
+}
+.sub__title {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.1em;  
+    margin-bottom: 34px;
+}
+.sub__desc {
+    max-width: 720px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    margin-left: 360px;
+}
+.email {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.email::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 325px;
+    left: 518px;
+    bottom: -14px;
+    background-color: #FFFFFF;
+}
+.button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;  
+    letter-spacing: 0.1em;   
+    color: #FFFFFF;
+    padding: 21px 115px 21px 115px;
+    background-color: black;
+    margin-bottom: 114px;
+}
+/* SUB SECTION */
+/* FOOTER  */
+.footer {
+    background-color: black;
+    color: #FFFFFF;
+}
+.footer__elements {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0 27px 0;
+}
+/* FOOTER  */
+  
